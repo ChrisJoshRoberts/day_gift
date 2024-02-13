@@ -1,0 +1,24 @@
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(246, 246, 246);
+}
+img {
+  width: 40%;
+  animation: beat 0.5s infinite alternate;
+}
+p {
+  text-align: center;
+  opacity: 0.6;
+  margin: 80px 10%;
+}
+em{
+  font-size: 14px;
+}
+
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
